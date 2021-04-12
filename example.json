@@ -1,0 +1,14 @@
+{
+    "name": "Folder",
+    "children": [
+        {
+            "name": "FileOne",
+            "extension": "json",
+            "size": 123123
+        },
+        {
+            "name": "InnerFolder",
+            "children": []
+        }
+    ]
+}

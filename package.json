@@ -1,0 +1,19 @@
+{
+  "name": "js-mentoring-nodejs-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewms2013/js-mentoring-nodejs-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewms2013/js-mentoring-nodejs-task/issues"
+  },
+  "homepage": "https://github.com/andrewms2013/js-mentoring-nodejs-task#readme"
+}
