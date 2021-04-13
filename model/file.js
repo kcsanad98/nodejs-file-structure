@@ -1,10 +1,11 @@
 class File {
     constructor(fileName, size) {
-        const parts = fileName.split(".")
-        this.extension = parts.pop()
-        this.name = parts.join(".")
-        this.size = size
+        const parts = fileName.split(".");
+        const extension = parts.pop();
+        const name = parts.join(".");
+        [this.name, this.extension] = [name, extension];
+        this.size = size;
     }
 }
 
-module.exports = File
+module.exports = File;
