@@ -1,5 +1,4 @@
-const fs = require('fs');
+const input = require("./lib/input")
+const file_writer = require("./lib/file_writer")
 
-process.stdin.on('data', (chunk) => {
-    console.log(chunk.toString('utf-8'));
-})
+input.getUserInput(file_writer.createJSON)
