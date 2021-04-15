@@ -22,7 +22,6 @@
             }
         ],
         "arrow-body-style": ["error", "as-needed"],
-        "no-plusplus": 1,
-        "consistent-return": 1
+        "no-plusplus": 1
     }
 }
