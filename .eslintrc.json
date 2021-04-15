@@ -21,6 +21,8 @@
                 "functions": "never"
             }
         ],
-        "arrow-body-style": ["error", "as-needed"]
+        "arrow-body-style": ["error", "as-needed"],
+        "no-plusplus": 1,
+        "consistent-return": 1
     }
 }

@@ -1,7 +1,7 @@
 class Directory {
-    constructor(name) {
+    constructor(name, children = []) {
         this.name = name;
-        this.children = [];
+        this.children = children;
     }
 }
 
